@@ -1,0 +1,159 @@
+/* css Zen Garden default style v1.02 */
+/* css released under Creative Commons License - http://creativecommons.org/licenses/by-nc-sa/1.0/  */
+
+/* This file based on 'Tranquille' by Dave Shea */
+/* You may use this file as a foundation for any new work, but you may find it easier to start from scratch. */
+/* Not all elements are defined in this file, so you'll most likely want to refer to the xhtml as well. */
+
+/* Your images should be linked as if the CSS file sits in the same folder as the images. ie. no paths. */
+
+
+/* basic elements */
+:root {
+    --background-color: #f2f0eb;
+    --main-color: #344e41;
+    --secondary-color: #588157;
+    --box-color: #ffffff;
+    --text-color: #2b2b2b;
+    --border-color: #d6d3cc;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Main page */
+
+.page-wrapper {
+    max-width: 1000px;
+    margin: auto;
+    padding: 30px;
+}
+
+/* Header */
+
+header {
+    background-color: var(--main-color);
+    color: white;
+    text-align: center;
+    padding: 40px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+}
+
+header h1 {
+    font-size: 40px;
+    margin: 0;
+}
+
+header h2 {
+    font-size: 22px;
+    margin-top: 10px;
+    color: #dbe7d6;
+}
+
+/* Text */
+
+h3 {
+    color: var(--main-color);
+    font-size: 24px;
+}
+
+p {
+    margin-top: 0;
+}
+
+/* Links */
+
+a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Intro */
+
+.summary {
+    background-color: var(--box-color);
+    border: 1px solid var(--border-color);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.preamble {
+    background-color: var(--box-color);
+    border: 1px solid var(--border-color);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+/* Main sections */
+
+.explanation,
+.participation,
+.benefits,
+.requirements {
+    background-color: var(--box-color);
+    border: 1px solid var(--border-color);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+/* Sidebar */
+
+.sidebar {
+    background-color: #e4e8df;
+    border: 1px solid var(--border-color);
+    padding: 20px;
+    margin-top: 25px;
+    border-radius: 8px;
+}
+
+.sidebar h3 {
+    color: var(--main-color);
+}
+
+.sidebar ul {
+    padding-left: 20px;
+}
+
+.sidebar li {
+    margin-bottom: 8px;
+}
+
+/* Footer */
+
+footer {
+    background-color: var(--main-color);
+    text-align: center;
+    padding: 20px;
+    margin-top: 25px;
+    border-radius: 8px;
+}
+
+footer a {
+    color: white;
+    margin: 10px;
+}
+
+footer a:hover {
+    color: #dbe7d6;
+}
